@@ -152,6 +152,10 @@ header("Location: ".root."login");
                                 <div class="card-body">
                                  <div class="row">
                                      <div class="col-md-3"><a href="<?=root?>email_accounts"><i class="fas fa-envelope-square"></i> Email Accounts</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>forwarders"><i class="far fa-envelope"></i> Forwarders</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>email_routing"><i class="fas fa-envelope-open-text"></i> Email Routing</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>autoresponders"><i class="fas fa-mail-bulk"></i> Autoresponders</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>default_address"><i class="far fa-envelope"></i> Default Address</a></div>
                                  </div>
                                 </div>
                             </div>
@@ -165,7 +169,7 @@ header("Location: ".root."login");
                                     <div id="email-group" data-group-name="email" draggable="true" drag="handleDrag" drag-end="handleDragEnd" class="panel panel-widget icon-menu-section" role="group">
                                         <div class="panel-heading widget-heading widget-draggable" ng-dblclick="toggleGroup(email)">
                                             <span role="heading" aria-level="3" id="email-header" class="group-header group-email">Email</span>
-                                            <span id="email-collapsed-indicator" tabindex="0" class="group-header-indicator pull-right fas fa-minus" ng-click="toggleGroup(&quot;email&quot;)" data-collapsed-indicator="" aria-label="Expand or collapse “email” application group."></span>
+                                            <span id="email-collapsed-indicator" tabindex="0" class="group-header-indicator pull-right fas fa-minus" ng-click="toggleGroup(&quot;email&quot;)" data-collapsed-indicator="" aria-label="Expand or collapse ï¿½emailï¿½ application group."></span>
                                         </div>
                                         <div id="email-body" data-group-body="email" class="panel-body widget-collapsible">
                                             <div class="icon-container-body">
@@ -242,7 +246,7 @@ header("Location: ".root."login");
                                     <div id="files-group" data-group-name="files" draggable="true" drag="handleDrag" drag-end="handleDragEnd" class="panel panel-widget icon-menu-section" role="group">
                                         <div class="panel-heading widget-heading widget-draggable" ng-dblclick="toggleGroup(files)">
                                             <span role="heading" aria-level="3" id="files-header" class="group-header group-files">Files</span>
-                                            <span id="files-collapsed-indicator" tabindex="0" class="group-header-indicator pull-right fas fa-minus" ng-click="toggleGroup(&quot;files&quot;)" data-collapsed-indicator="" aria-label="Expand or collapse “files” application group."></span>
+                                            <span id="files-collapsed-indicator" tabindex="0" class="group-header-indicator pull-right fas fa-minus" ng-click="toggleGroup(&quot;files&quot;)" data-collapsed-indicator="" aria-label="Expand or collapse ï¿½filesï¿½ application group."></span>
                                         </div>
                                         <div id="files-body" data-group-body="files" class="panel-body widget-collapsible">
                                             <div class="icon-container-body">
@@ -274,9 +278,9 @@ header("Location: ".root."login");
                                                     <a id="icon-backup_wizard" aria-label="Backup Wizard" class="itemImageWrapper integrations_icon spriteicon_img icon-backup_wizard" href="backup/wizard.html"></a>
                                                     <a id="item_backup_wizard" class="itemTextWrapper link" href="backup/wizard.html">Backup Wizard</a>
                                                 </div>
-                                                <div class="item" data-item-search-text="Git version control vcs repositories repository repo master checkout check out branch clone remote source code commit head gitweb history log publish deployment build continuous integration Git™ Version Control Git™ Version Control" data-item-group="files">
-                                                    <a id="icon-version_control" aria-label="Git™ Version Control" class="itemImageWrapper integrations_icon spriteicon_img icon-version_control" href="version_control/index.html"></a>
-                                                    <a id="item_version_control" class="itemTextWrapper link" href="version_control/index.html">Git™ Version Control</a>
+                                                <div class="item" data-item-search-text="Git version control vcs repositories repository repo master checkout check out branch clone remote source code commit head gitweb history log publish deployment build continuous integration Gitï¿½ Version Control Gitï¿½ Version Control" data-item-group="files">
+                                                    <a id="icon-version_control" aria-label="Gitï¿½ Version Control" class="itemImageWrapper integrations_icon spriteicon_img icon-version_control" href="version_control/index.html"></a>
+                                                    <a id="item_version_control" class="itemTextWrapper link" href="version_control/index.html">Gitï¿½ Version Control</a>
                                                 </div>
                                                 <div class="item" data-item-search-text="File directory restoration File and Directory Restoration File and Directory Restoration" data-item-group="files">
                                                     <a id="icon-file_and_directory_restoration" aria-label="File and Directory Restoration" class="itemImageWrapper integrations_icon spriteicon_img icon-file_and_directory_restoration" href="file_and_directory_restoration/index.html"></a>
@@ -291,7 +295,7 @@ header("Location: ".root."login");
                                     <div id="databases-group" data-group-name="databases" draggable="true" drag="handleDrag" drag-end="handleDragEnd" class="panel panel-widget icon-menu-section" role="group">
                                         <div class="panel-heading widget-heading widget-draggable" ng-dblclick="toggleGroup(databases)">
                                             <span role="heading" aria-level="3" id="databases-header" class="group-header group-databases">Databases</span>
-                                            <span id="databases-collapsed-indicator" tabindex="0" class="group-header-indicator pull-right fas fa-minus" ng-click="toggleGroup(&quot;databases&quot;)" data-collapsed-indicator="" aria-label="Expand or collapse “databases” application group."></span>
+                                            <span id="databases-collapsed-indicator" tabindex="0" class="group-header-indicator pull-right fas fa-minus" ng-click="toggleGroup(&quot;databases&quot;)" data-collapsed-indicator="" aria-label="Expand or collapse ï¿½databasesï¿½ application group."></span>
                                         </div>
                                         <div id="databases-body" data-group-body="databases" class="panel-body widget-collapsible">
                                             <div class="icon-container-body">
@@ -299,17 +303,17 @@ header("Location: ".root."login");
                                                     <a id="icon-php_my_admin" aria-label="phpMyAdmin" class="itemImageWrapper integrations_icon spriteicon_img icon-php_my_admin" href="sql/PhpMyAdmin.html" target="phpmyadmin"></a>
                                                     <a id="item_php_my_admin" class="itemTextWrapper link" href="sql/PhpMyAdmin.html" target="phpmyadmin">phpMyAdmin</a>
                                                 </div>
-                                                <div class="item" data-item-search-text="MySQL Databases db MySQL® Databases MySQL® Databases" data-item-group="databases">
-                                                    <a id="icon-mysql_databases" aria-label="MySQL® Databases" class="itemImageWrapper integrations_icon spriteicon_img icon-mysql_databases" href="sql/index.html"></a>
-                                                    <a id="item_mysql_databases" class="itemTextWrapper link" href="sql/index.html">MySQL® Databases</a>
+                                                <div class="item" data-item-search-text="MySQL Databases db MySQLï¿½ Databases MySQLï¿½ Databases" data-item-group="databases">
+                                                    <a id="icon-mysql_databases" aria-label="MySQLï¿½ Databases" class="itemImageWrapper integrations_icon spriteicon_img icon-mysql_databases" href="sql/index.html"></a>
+                                                    <a id="item_mysql_databases" class="itemTextWrapper link" href="sql/index.html">MySQLï¿½ Databases</a>
                                                 </div>
-                                                <div class="item" data-item-search-text="MySQL Database Wizard mysql database db MySQL® Database Wizard MySQL® Database Wizard" data-item-group="databases">
-                                                    <a id="icon-mysql_database_wizard" aria-label="MySQL® Database Wizard" class="itemImageWrapper integrations_icon spriteicon_img icon-mysql_database_wizard" href="sql/wizard1.html"></a>
-                                                    <a id="item_mysql_database_wizard" class="itemTextWrapper link" href="sql/wizard1.html">MySQL® Database Wizard</a>
+                                                <div class="item" data-item-search-text="MySQL Database Wizard mysql database db MySQLï¿½ Database Wizard MySQLï¿½ Database Wizard" data-item-group="databases">
+                                                    <a id="icon-mysql_database_wizard" aria-label="MySQLï¿½ Database Wizard" class="itemImageWrapper integrations_icon spriteicon_img icon-mysql_database_wizard" href="sql/wizard1.html"></a>
+                                                    <a id="item_mysql_database_wizard" class="itemTextWrapper link" href="sql/wizard1.html">MySQLï¿½ Database Wizard</a>
                                                 </div>
-                                                <div class="item" data-item-search-text="Remote MySQL db Remote MySQL® Remote MySQL®" data-item-group="databases">
-                                                    <a id="icon-remote_mysql" aria-label="Remote MySQL®" class="itemImageWrapper integrations_icon spriteicon_img icon-remote_mysql" href="sql/managehost.html"></a>
-                                                    <a id="item_remote_mysql" class="itemTextWrapper link" href="sql/managehost.html">Remote MySQL®</a>
+                                                <div class="item" data-item-search-text="Remote MySQL db Remote MySQLï¿½ Remote MySQLï¿½" data-item-group="databases">
+                                                    <a id="icon-remote_mysql" aria-label="Remote MySQLï¿½" class="itemImageWrapper integrations_icon spriteicon_img icon-remote_mysql" href="sql/managehost.html"></a>
+                                                    <a id="item_remote_mysql" class="itemTextWrapper link" href="sql/managehost.html">Remote MySQLï¿½</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -320,7 +324,7 @@ header("Location: ".root."login");
                                     <div id="domains-group" data-group-name="domains" draggable="true" drag="handleDrag" drag-end="handleDragEnd" class="panel panel-widget icon-menu-section" role="group">
                                         <div class="panel-heading widget-heading widget-draggable" ng-dblclick="toggleGroup(domains)">
                                             <span role="heading" aria-level="3" id="domains-header" class="group-header group-domains">Domains</span>
-                                            <span id="domains-collapsed-indicator" tabindex="0" class="group-header-indicator pull-right fas fa-minus" ng-click="toggleGroup(&quot;domains&quot;)" data-collapsed-indicator="" aria-label="Expand or collapse “domains” application group."></span>
+                                            <span id="domains-collapsed-indicator" tabindex="0" class="group-header-indicator pull-right fas fa-minus" ng-click="toggleGroup(&quot;domains&quot;)" data-collapsed-indicator="" aria-label="Expand or collapse ï¿½domainsï¿½ application group."></span>
                                         </div>
                                         <div id="domains-body" data-group-body="domains" class="panel-body widget-collapsible">
                                             <div class="icon-container-body">
@@ -365,7 +369,7 @@ header("Location: ".root."login");
                                     <div id="metrics-group" data-group-name="metrics" draggable="true" drag="handleDrag" drag-end="handleDragEnd" class="panel panel-widget icon-menu-section" role="group">
                                         <div class="panel-heading widget-heading widget-draggable" ng-dblclick="toggleGroup(metrics)">
                                             <span role="heading" aria-level="3" id="metrics-header" class="group-header group-metrics">Metrics</span>
-                                            <span id="metrics-collapsed-indicator" tabindex="0" class="group-header-indicator pull-right fas fa-minus" ng-click="toggleGroup(&quot;metrics&quot;)" data-collapsed-indicator="" aria-label="Expand or collapse “metrics” application group."></span>
+                                            <span id="metrics-collapsed-indicator" tabindex="0" class="group-header-indicator pull-right fas fa-minus" ng-click="toggleGroup(&quot;metrics&quot;)" data-collapsed-indicator="" aria-label="Expand or collapse ï¿½metricsï¿½ application group."></span>
                                         </div>
                                         <div id="metrics-body" data-group-body="metrics" class="panel-body widget-collapsible">
                                             <div class="icon-container-body">
@@ -410,7 +414,7 @@ header("Location: ".root."login");
                                     <div id="security-group" data-group-name="security" draggable="true" drag="handleDrag" drag-end="handleDragEnd" class="panel panel-widget icon-menu-section" role="group">
                                         <div class="panel-heading widget-heading widget-draggable" ng-dblclick="toggleGroup(security)">
                                             <span role="heading" aria-level="3" id="security-header" class="group-header group-security">Security</span>
-                                            <span id="security-collapsed-indicator" tabindex="0" class="group-header-indicator pull-right fas fa-minus" ng-click="toggleGroup(&quot;security&quot;)" data-collapsed-indicator="" aria-label="Expand or collapse “security” application group."></span>
+                                            <span id="security-collapsed-indicator" tabindex="0" class="group-header-indicator pull-right fas fa-minus" ng-click="toggleGroup(&quot;security&quot;)" data-collapsed-indicator="" aria-label="Expand or collapse ï¿½securityï¿½ application group."></span>
                                         </div>
                                         <div id="security-body" data-group-body="security" class="panel-body widget-collapsible">
                                             <div class="icon-container-body">
@@ -459,7 +463,7 @@ header("Location: ".root."login");
                                     <div id="software-group" data-group-name="software" draggable="true" drag="handleDrag" drag-end="handleDragEnd" class="panel panel-widget icon-menu-section" role="group">
                                         <div class="panel-heading widget-heading widget-draggable" ng-dblclick="toggleGroup(software)">
                                             <span role="heading" aria-level="3" id="software-header" class="group-header group-software">Software</span>
-                                            <span id="software-collapsed-indicator" tabindex="0" class="group-header-indicator pull-right fas fa-minus" ng-click="toggleGroup(&quot;software&quot;)" data-collapsed-indicator="" aria-label="Expand or collapse “software” application group."></span>
+                                            <span id="software-collapsed-indicator" tabindex="0" class="group-header-indicator pull-right fas fa-minus" ng-click="toggleGroup(&quot;software&quot;)" data-collapsed-indicator="" aria-label="Expand or collapse ï¿½softwareï¿½ application group."></span>
                                         </div>
                                         <div id="software-body" data-group-body="software" class="panel-body widget-collapsible">
                                             <div class="icon-container-body">
@@ -500,7 +504,7 @@ header("Location: ".root."login");
                                     <div id="advanced-group" data-group-name="advanced" draggable="true" drag="handleDrag" drag-end="handleDragEnd" class="panel panel-widget icon-menu-section" role="group">
                                         <div class="panel-heading widget-heading widget-draggable" ng-dblclick="toggleGroup(advanced)">
                                             <span role="heading" aria-level="3" id="advanced-header" class="group-header group-advanced">Advanced</span>
-                                            <span id="advanced-collapsed-indicator" tabindex="0" class="group-header-indicator pull-right fas fa-minus" ng-click="toggleGroup(&quot;advanced&quot;)" data-collapsed-indicator="" aria-label="Expand or collapse “advanced” application group."></span>
+                                            <span id="advanced-collapsed-indicator" tabindex="0" class="group-header-indicator pull-right fas fa-minus" ng-click="toggleGroup(&quot;advanced&quot;)" data-collapsed-indicator="" aria-label="Expand or collapse ï¿½advancedï¿½ application group."></span>
                                         </div>
                                         <div id="advanced-body" data-group-body="advanced" class="panel-body widget-collapsible">
                                             <div class="icon-container-body">
@@ -541,7 +545,7 @@ header("Location: ".root."login");
                                     <div id="preferences-group" data-group-name="preferences" draggable="true" drag="handleDrag" drag-end="handleDragEnd" class="panel panel-widget icon-menu-section" role="group">
                                         <div class="panel-heading widget-heading widget-draggable" ng-dblclick="toggleGroup(preferences)">
                                             <span role="heading" aria-level="3" id="preferences-header" class="group-header group-preferences">Preferences</span>
-                                            <span id="preferences-collapsed-indicator" tabindex="0" class="group-header-indicator pull-right fas fa-minus" ng-click="toggleGroup(&quot;preferences&quot;)" data-collapsed-indicator="" aria-label="Expand or collapse “preferences” application group."></span>
+                                            <span id="preferences-collapsed-indicator" tabindex="0" class="group-header-indicator pull-right fas fa-minus" ng-click="toggleGroup(&quot;preferences&quot;)" data-collapsed-indicator="" aria-label="Expand or collapse ï¿½preferencesï¿½ application group."></span>
                                         </div>
                                         <div id="preferences-body" data-group-body="preferences" class="panel-body widget-collapsible">
                                             <div class="icon-container-body">
@@ -574,7 +578,7 @@ header("Location: ".root."login");
                                     <div id="applications-group" data-group-name="applications" draggable="true" drag="handleDrag" drag-end="handleDragEnd" class="panel panel-widget icon-menu-section" role="group">
                                         <div class="panel-heading widget-heading widget-draggable" ng-dblclick="toggleGroup(applications)">
                                             <span role="heading" aria-level="3" id="applications-header" class="group-header group-applications">Applications</span>
-                                            <span id="applications-collapsed-indicator" tabindex="0" class="group-header-indicator pull-right fas fa-minus" ng-click="toggleGroup(&quot;applications&quot;)" data-collapsed-indicator="" aria-label="Expand or collapse “applications” application group."></span>
+                                            <span id="applications-collapsed-indicator" tabindex="0" class="group-header-indicator pull-right fas fa-minus" ng-click="toggleGroup(&quot;applications&quot;)" data-collapsed-indicator="" aria-label="Expand or collapse ï¿½applicationsï¿½ application group."></span>
                                         </div>
                                         <div id="applications-body" data-group-body="applications" class="panel-body widget-collapsible">
                                             <div class="icon-container-body">
@@ -621,7 +625,7 @@ header("Location: ".root."login");
                                             </label>
                                             <div id="txtDomainName" class="general-info-value">
                                                 <span ng-class="sslValidationIconClasses" class="fas fa-unlock-alt" style=""></span>
-                                                <a ng-href="http://demo.cpanel.com" target="_blank" title="Preview “demo.cpanel.com”" href="http://demo.cpanel.com">
+                                                <a ng-href="http://demo.cpanel.com" target="_blank" title="Preview ï¿½demo.cpanel.comï¿½" href="http://demo.cpanel.com">
                                                 demo.cpanel.com
                                                 <i class="fas fa-external-link-alt" aria-hidden="true"></i>
                                                 </a>
@@ -656,7 +660,7 @@ header("Location: ".root."login");
                                     <tr>
                                         <td colspan="2" ng-controller="themesController">
                                             <label id="lblTheme" class="general-info-label updating-elements">Theme</label>
-                                            <span id="themeSpinner" class="fas fa-spinner fa-spin updating-elements ng-hide" title="Loading …" ng-hide="updated"></span>
+                                            <span id="themeSpinner" class="fas fa-spinner fa-spin updating-elements ng-hide" title="Loading ï¿½" ng-hide="updated"></span>
                                             <select chosen="" width="'98%'" id="ddlThemes" class="form-control ng-hide ng-pristine ng-untouched ng-valid localytics-chosen" ng-class="{ 'chosen-rtl': isRTL }" ng-options="item for item in themes" ng-model="selectedTheme" ng-change="themeChanged()" name="" style="display: none;">
                                                 <option value="string:paper_lantern" label="paper_lantern" selected="selected">paper_lantern</option>
                                             </select>
@@ -685,7 +689,7 @@ header("Location: ".root."login");
                         <div id="statsSection" class="panel panel-widget" ng-controller="statisticsController">
                             <div id="statsHeaderSection" class="panel-heading widget-heading">
                                 <span role="heading" aria-level="3">Statistics</span>
-                                <i ng-class="[glyph, animate]" ng-show="display" spinner="" id="loadingStatsSpinner" glyph-class="fas fa-spinner" class="pull-right fas fa-spinner ng-hide" title="Loading …" style=""></i>
+                                <i ng-class="[glyph, animate]" ng-show="display" spinner="" id="loadingStatsSpinner" glyph-class="fas fa-spinner" class="pull-right fas fa-spinner ng-hide" title="Loading ï¿½" style=""></i>
                             </div>
                             <table class="table">
                                 <tbody>
@@ -783,7 +787,7 @@ header("Location: ".root."login");
                                     <tr id="row_cachedmysqldiskusage" ng-repeat="app in ::statistics | orderBy:'-percent' track by app.id" ng-class="::getStatStatus(app.percent, app.error)" class="app-stat-row success" style="">
                                         <td class="app-stat-data">
                                             <!-- ngIf: ::app.url -->
-                                            <!-- ngIf: ::!app.url --><span ng-if="::!app.url" id="lblStatsName_cachedmysqldiskusage" class="app-name">MySQL® Disk Usage</span><!-- end ngIf: ::!app.url -->
+                                            <!-- ngIf: ::!app.url --><span ng-if="::!app.url" id="lblStatsName_cachedmysqldiskusage" class="app-name">MySQLï¿½ Disk Usage</span><!-- end ngIf: ::!app.url -->
                                             <!-- ngIf: !app.error -->
                                             <div ng-if="!app.error">
                                                 <!-- ngIf: app.formatter === 'percent' -->
@@ -1022,7 +1026,7 @@ header("Location: ".root."login");
                                     <!-- end ngRepeat: app in ::statistics | orderBy:'-percent' track by app.id -->
                                     <tr id="row_mysql_databases" ng-repeat="app in ::statistics | orderBy:'-percent' track by app.id" ng-class="::getStatStatus(app.percent, app.error)" class="app-stat-row success" style="">
                                         <td class="app-stat-data">
-                                            <!-- ngIf: ::app.url --><a ng-if="::app.url" id="lnkstats_mysql_databases" class="app-name" href="sql/index.html">MySQL® Databases</a><!-- end ngIf: ::app.url -->
+                                            <!-- ngIf: ::app.url --><a ng-if="::app.url" id="lnkstats_mysql_databases" class="app-name" href="sql/index.html">MySQLï¿½ Databases</a><!-- end ngIf: ::app.url -->
                                             <!-- ngIf: ::!app.url -->
                                             <!-- ngIf: !app.error -->
                                             <div ng-if="!app.error">
@@ -1079,7 +1083,7 @@ header("Location: ".root."login");
                         </button>
                     </div>
                     <div id="userConsentContainer" class="consentContainer">
-                        <button type="button" id="closeConsentContainer" aria-label="Close User Consent" class="closeConsent" onclick="AnalyticsConsentBanner.toggle();">×</button>
+                        <button type="button" id="closeConsentContainer" aria-label="Close User Consent" class="closeConsent" onclick="AnalyticsConsentBanner.toggle();">ï¿½</button>
                         <div id="userConsentQuestion" class="consentDefault">
                             <div class="row">
                                 <div class="col-sm-9">
