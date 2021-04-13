@@ -156,6 +156,18 @@ header("Location: ".root."login");
                                      <div class="col-md-3"><a href="<?=root?>email_routing"><i class="fas fa-envelope-open-text"></i> Email Routing</a></div>
                                      <div class="col-md-3"><a href="<?=root?>autoresponders"><i class="fas fa-mail-bulk"></i> Autoresponders</a></div>
                                      <div class="col-md-3"><a href="<?=root?>default_address"><i class="far fa-envelope"></i> Default Address</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>mailing_lists"><i class="fas fa-envelope-open-text"></i> Mailing Lists </a></div>
+                                     <div class="col-md-3"><a href="<?=root?>track_delivery"><i class="fas fa-map-marked-alt"></i> Track Delivery</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>global_email_filters"><i class="fas fa-globe"></i> Global Email Filters</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>email_filters"><i class="fas fa-filter"></i> Email Filters</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>email_deliverability"><i class="fas fa-inbox"></i> Email Deliverability</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>address_importers"><i class="fas fa-address-card"></i> Address Importer</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>spam_filters"><i class="far fa-envelope-open"></i> Spam Filters </a></div>
+                                     <div class="col-md-3"><a href="<?=root?>encryption"><i class="fas fa-sign-in-alt"></i> Encryption</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>boxtrapper"><i class="fas fa-box-tissue"></i> BoxTrapper</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>calendars_and_contacts"><i class="far fa-calendar-alt"></i> Calendars and Contacts</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>email_disk_usage"><i class="fas fa-at"></i> Email Disk Usage </a></div>
+
                                  </div>
                                 </div>
                             </div>
