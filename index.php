@@ -198,8 +198,10 @@ header("Location: ".root."login");
                                 </div>
                                 <div class="card-body">
                                  <div class="row">
-                                     <div class="col-md-3"><a href="<?=root?>file_manager"><i class="fas fa-file"></i> File Manager</a></div>
-                                     >
+                                     <div class="col-md-3"><a href="<?=root?>phpmyadmin"><i class="fas fa-users-cog"></i> phpMyAdmin</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>mysql_databases"><i class="fas fa-user-lock"></i> MySQL Databases</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>mysql_database_wizard"><i class="fas fa-user-cog"></i> MySQL Database Wizard</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>remote_mysql"><i class="fas fa-user-shield"></i> Remote MySQL</a></div>
                                   
                                  </div>
                                 </div>
