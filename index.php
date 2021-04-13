@@ -77,55 +77,88 @@ header("Location: ".root."login");
         <meta name="apple-mobile-web-app-status-bar-style" content="default">
         <meta name="referrer" content="origin">
         <link rel="shortcut icon" href="data:image/x-icon;base64,AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAABMLAAATCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACxs/yIsbP+BLGz/vyxs/9UsbP/VLGz/zyxs/xQsbP/VLGz/1Sxs/9UsbP/VLGz/ryxs/xsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACxs/wUsbP+FLGz/+ixs//8sbP//LGz//yxs//8sbP//LGz/QCxs/9EsbP//LGz//yxs//8sbP//LGz/twAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsbP8FLGz/tSxs//8sbP//LGz//yxs//8sbP//LGz//yxs//8sbP+FLGz/jixs//8sbP//LGz//yxs//8sbP/6LGz/DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQIEACxs/5MsbP//LGz//yxs//8sbP//LGz//yxs//8sbP//LGz//yxs/8osbP9LLGz//yxs//8sbP//LGz//yxs//8sbP9MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsbP8uLGz//Sxs//8sbP//LGz//yxs//8sbP//LGz//yxs//8sbP//LGz/5ixs/wssbP/6LGz//yxs//8sbP//LGz//yxs/5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACxs/5gsbP//LGz//yxs//8sbP//LGz//yxs//EsbP+XLGz/gCxs/4AsbP85AQMIACxs/8EsbP//LGz//yxs//8sbP//LGz/1ixs/yAsbP+VLGz/lSxs/5UsbP+VLGz/lSxs/5AsbP9sLGz/JwAAAAAAAAAAAAAAAAAAAAAAAAAALGz/3yxs//8sbP//LGz//yxs//8sbP/tLGz/JQAAAQAAAAAAAAAAAAAAAAAAAAAALGz/fCxs//8sbP//LGz//yxs//8sbP//LGz/JSxs//gsbP//LGz//yxs//8sbP//LGz//yxs//8sbP//LGz/vyxs/y4AAAAAAAAAAAAAAAAsbP//LGz//yxs//8sbP//LGz//yxs/4cAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsbP85LGz//yxs//8sbP//LGz//yxs//8sbP9gLGz/vixs//8sbP//LGz//yxs//8sbP//LGz//yxs//8sbP//LGz/+Cxs/1UAAAAAAAAAACxs//8sbP//LGz//yxs//8sbP//LGz/bgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACxs/wQsbP/xLGz//yxs//8sbP//LGz//yxs/6UsbP96LGz//yxs//8sbP//LGz//yxs//8sbP//LGz//yxs//8sbP//LGz/+ixs/0AAAAAALGz/6ixs//8sbP//LGz//yxs//8sbP+zAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQIEACxs/68sbP//LGz//yxs//8sbP//LGz/6Cxs/yksbP/8LGz//yxs//8sbP//LGz//yxs//8sbP//LGz//yxs//8sbP//LGz/3ixs/wcsbP+xLGz//yxs//8sbP//LGz//yxs//8sbP+BLGz/BwAAAAAAAAAAAAAAAAAAAAAAAAAALGz/bCxs//8sbP//LGz//yxs//8sbP//LGz/Lixs/1AsbP+6LGz/1Sxs/9UsbP/qLGz//yxs//8sbP//LGz//yxs//8sbP//LGz/XCxs/1wsbP//LGz//yxs//8sbP//LGz//yxs//8sbP/1LGz/1ixs/9UsbP/VLGz/zyxs/1ksbP8nLGz//yxs//8sbP//LGz//yxs//8sbP9zAAAAAAEDBgACBg4AAgYOACxs/wQsbP9zLGz//yxs//8sbP//LGz//yxs//8sbP+vLGz/Byxs/9wsbP//LGz//yxs//8sbP//LGz//yxs//8sbP//LGz//yxs//8sbP//LGz//Sxs/yksbP/jLGz//yxs//8sbP//LGz//yxs/7cAAAAAAAAAAAAAAAAAAAAAAAAAAAEDCAAsbP+uLGz//yxs//8sbP//LGz//yxs/+oAAAAALGz/OSxs//osbP//LGz//yxs//8sbP//LGz//yxs//8sbP//LGz//yxs//8sbP//LGz/dyxs/6AsbP//LGz//yxs//8sbP//LGz/9Sxs/wcAAAAAAAAAAAAAAAAAAAAAAAAAACxs/24sbP//LGz//yxs//8sbP//LGz//wAAAAAAAAEALGz/TCxs//MsbP//LGz//yxs//8sbP//LGz//yxs//8sbP//LGz//yxs//8sbP+6LGz/Wixs//8sbP//LGz//yxs//8sbP//LGz/QgAAAAAAAAAAAAAAAAAAAAAAAQEALGz/lSxs//8sbP//LGz//yxs//8sbP//AAAAAAAAAAAAAAAALGz/JCxs/6osbP/9LGz//yxs//8sbP//LGz//yxs//8sbP//LGz//yxs//UsbP8eLGz//yxs//8sbP//LGz//yxs//8sbP+HAAAAAAAAAAAAAAAAAAAAACxs/zUsbP/2LGz//yxs//8sbP//LGz//yxs/9wAAAAAAAAAAAAAAAAAAAAAAQIFACxs/xssbP9aLGz/fCxs/4AsbP+ALGz/gCxs/4AsbP+ALGz/gCxs/xksbP/RLGz//yxs//8sbP//LGz//yxs/+EsbP+VLGz/lSxs/5UsbP+qLGz/+ixs//8sbP//LGz//yxs//8sbP//LGz/kQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACxs/44sbP//LGz//yxs//8sbP//LGz//yxs//8sbP//LGz//yxs//8sbP//LGz//yxs//8sbP//LGz//yxs//wsbP8rAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALGz/Syxs//8sbP//LGz//yxs//8sbP//LGz//yxs//8sbP//LGz//yxs//8sbP//LGz//yxs//8sbP//LGz/iQAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsbP8LLGz/+ixs//8sbP//LGz//yxs//8sbP//LGz//yxs//8sbP//LGz//yxs//8sbP//LGz//yxs/64sbP8EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEDBwAsbP+xLGz//yxs//8sbP//LGz//yxs//8sbP//LGz//yxs//8sbP//LGz//yxs//QsbP95LGz/AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACxs/xksbP+lLGz/1Sxs/9UsbP/VLGz/1Sxs/9UsbP/VLGz/0yxs/7MsbP91LGz/FwABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAECBAACBg4AAgYOAAIGDgACBg4AAgYOAAIGDgACBg4AAQIEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA///////////////////////////wAH//wAB//4AAP/+AAD//AAA//wAQAB8B8AAHA/AAAwPwAAED+AAAAPgAAAAADwAAAA/AgAAHwMAAB8DgAAeA+AAAAP/+AAD//gAB//4AAf//AAP//wAP//////////////////////////8=" type="image/x-icon" />
-        <link rel="stylesheet" href="<?=root?>style.css" />
-    </head>
-    <body id="home" class="cpanel yui-skin-sam cpanel_body" data-app-key="home">
-        <div id="wrap">
-            <a href="#content" class="sr-only">Skip to main content</a>
-            <header id="masterAppContainer">
-                <div class="navbar navbar-inverse navbar-cpanel navbar-fixed-top" role="navigation">
-                    <div class="navbar-header">
-                        <button type="button" id="btnSideBarToggle" class="cp-nav-toggle">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="cp-icon-bar"></span>
-                        <span class="cp-icon-bar"></span>
-                        <span class="cp-icon-bar"></span>
-                        </button>
-                        <a id="lnkHeaderHome" class="navbar-brand navbar-brand-img" target="_top" href="<?=root?>" title="Home" role="link" aria-label="Home">
-                        <img id="imgLogo" class="navbar-brand-logo" style="width:90px" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIwLjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA5NCAyMCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgOTQgMjA7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDojRkZGRkZGO30KPC9zdHlsZT4KPHRpdGxlPkFzc2V0IDE8L3RpdGxlPgo8ZyBpZD0iTGF5ZXJfMiI+Cgk8ZyBpZD0iTGF5ZXJfMS0yIj4KCQk8cGF0aCBjbGFzcz0ic3QwIiBkPSJNNy44LDQuOWg1LjlsLTAuOSwzLjNjLTAuMSwwLjQtMC40LDAuOC0wLjgsMS4xYy0wLjQsMC4zLTAuOCwwLjQtMS4zLDAuNEg3LjljLTAuNiwwLTEuMiwwLjItMS43LDAuNQoJCQljLTAuNSwwLjQtMC44LDAuOS0xLDEuNGMtMC4xLDAuNC0wLjEsMC45LDAsMS4zYzAuMSwwLjQsMC4zLDAuNywwLjUsMS4xYzAuMiwwLjMsMC42LDAuNiwwLjksMC43QzcsMTUsNy41LDE1LjEsNy45LDE1LjFoMS43CgkJCWMwLjMsMCwwLjYsMC4xLDAuOCwwLjRjMC4yLDAuMiwwLjMsMC41LDAuMiwwLjhsLTEsMy43SDcuNmMtMS4yLDAtMi40LTAuMy0zLjQtMC44Yy0xLTAuNS0xLjktMS4yLTIuNi0yLjEKCQkJYy0xLjQtMS44LTEuOS00LjItMS4zLTYuNGwwLjEtMC40YzAuNC0xLjYsMS40LTIuOSwyLjctMy45QzMuOCw2LDQuNSw1LjYsNS4zLDUuM0M2LjEsNS4xLDYuOSw0LjksNy44LDQuOXoiLz4KCQk8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMTAuNywyMGw1LjEtMTguNGMwLjEtMC40LDAuNC0wLjgsMC44LTEuMUMxNywwLjEsMTcuNSwwLDE4LDBoNS40YzEuMiwwLDIuNCwwLjMsMy40LDAuOGMyLjEsMSwzLjUsMi45LDQsNQoJCQljMC4zLDEuMSwwLjIsMi4zLTAuMSwzLjRsLTAuMSwwLjRjLTAuMiwwLjgtMC42LDEuNS0xLDIuMmMtMS40LDItMy44LDMuMy02LjMsMy4zaC00LjdsMC45LTMuNGMwLjEtMC40LDAuNC0wLjgsMC44LTEuMQoJCQljMC40LTAuMywwLjgtMC40LDEuMy0wLjRoMS41YzEuMiwwLDIuMy0wLjgsMi43LTJjMC4xLTAuNCwwLjEtMC44LDAtMS4yYy0wLjEtMC40LTAuMy0wLjctMC41LTEuMWMtMC4yLTAuMy0wLjYtMC42LTAuOS0wLjcKCQkJQzI0LDUsMjMuNiw0LjksMjMuMSw0LjloLTIuOWwtMy44LDEzLjZjLTAuMSwwLjQtMC40LDAuOC0wLjgsMS4xYy0wLjQsMC4zLTAuOCwwLjQtMS4zLDAuNEgxMC43eiIvPgoJCTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik00My4xLDEwLjJsMC4xLTAuM2MwLTAuMSwwLTAuMi0wLjEtMC4zYy0wLjEtMC4xLTAuMi0wLjEtMC4zLTAuMWgtOC40Yy0wLjMsMC0wLjctMC4xLTEtMC4yCgkJCWMtMC4zLTAuMS0wLjUtMC4zLTAuNy0wLjZjLTAuMi0wLjItMC4zLTAuNS0wLjQtMC44Yy0wLjEtMC4zLTAuMS0wLjcsMC0xbDAuNS0xLjloMTEuNGMwLjcsMCwxLjMsMC4xLDEuOSwwLjQKCQkJYzAuNiwwLjMsMS4xLDAuNywxLjUsMS4yYzAuNCwwLjUsMC43LDEuMSwwLjgsMS43YzAuMSwwLjYsMC4xLDEuMywwLDEuOWwtMi4xLDcuM0M0NiwxOSw0NC42LDIwLDQzLDIwbC04LjQsMAoJCQljLTEuNCwwLTIuNy0wLjYtMy42LTEuN2MtMC40LTAuNS0wLjctMS4xLTAuOC0xLjdjLTAuMi0wLjctMC4xLTEuNCwwLjEtMmwwLjEtMC40YzAuMS0wLjUsMC4zLTAuOSwwLjYtMS4zYzAuMy0wLjQsMC42LTAuNywxLTEKCQkJYzAuNC0wLjMsMC44LTAuNSwxLjMtMC43YzAuNS0wLjIsMS0wLjIsMS41LTAuMmg3LjFsLTAuNSwxLjljLTAuMSwwLjQtMC40LDAuOC0wLjgsMS4xYy0wLjQsMC4zLTAuOCwwLjQtMS4zLDAuNGgtMy4yCgkJCWMtMC4zLDAtMC41LDAuMS0wLjYsMC40Yy0wLjEsMC4yLDAsMC40LDAuMSwwLjVjMC4xLDAuMSwwLjMsMC4yLDAuNSwwLjJoNS4xYzAuMiwwLDAuNCwwLDAuNS0wLjFjMC4xLTAuMSwwLjItMC4yLDAuMy0wLjQKCQkJbDAuMS0wLjJMNDMuMSwxMC4yeiIvPgoJCTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik01OC4zLDQuOWMxLjIsMCwyLjQsMC4zLDMuNSwwLjhjMSwwLjUsMS45LDEuMiwyLjYsMi4xYzAuNywwLjksMS4yLDEuOSwxLjQsM2MwLjMsMS4xLDAuMiwyLjMtMC4xLDMuNAoJCQlsLTEuMyw0LjdjLTAuMSwwLjMtMC4zLDAuNi0wLjYsMC44Yy0wLjMsMC4yLTAuNiwwLjMtMSwwLjNINjBjLTAuNSwwLTEtMC40LTEtMC45YzAtMC4xLDAtMC4yLDAtMC4zbDEuNi01LjcKCQkJYzAuMS0wLjQsMC4xLTAuOCwwLTEuMmMtMC4xLTAuNC0wLjMtMC43LTAuNS0xLjFjLTAuMi0wLjMtMC42LTAuNi0wLjktMC43Yy0wLjQtMC4yLTAuOC0wLjMtMS4yLTAuM2gtMi45bC0yLjUsOS4xCgkJCWMtMC4xLDAuMy0wLjMsMC42LTAuNiwwLjhjLTAuMywwLjItMC42LDAuMy0xLDAuM2gtMi44Yy0wLjMsMC0wLjYtMC4xLTAuOC0wLjRjLTAuMi0wLjItMC4zLTAuNS0wLjItMC44bDMuOC0xMy45TDU4LjMsNC45eiIvPgoJCTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik03My42LDkuN2MtMC4yLDAuMi0wLjQsMC40LTAuNCwwLjZMNzIsMTQuNWMtMC4xLDAuNCwwLjEsMC44LDAuNSwwLjljMC4xLDAsMC4xLDAsMC4yLDBoMTAuOGwtMC44LDMKCQkJYy0wLjEsMC40LTAuNCwwLjgtMC44LDEuMUM4MS41LDE5LjksODEsMjAsODAuNiwyMGgtOS44Yy0wLjcsMC0xLjMtMC4xLTEuOS0wLjRjLTAuNi0wLjMtMS4xLTAuNy0xLjUtMS4yCgkJCWMtMC40LTAuNS0wLjctMS4xLTAuOC0xLjdjLTAuMS0wLjYtMC4xLTEuMywwLjEtMS45bDEuNi01LjdjMC4yLTAuNiwwLjQtMS4yLDAuOC0xLjdjMC43LTEsMS43LTEuOCwyLjktMi4yCgkJCWMwLjYtMC4yLDEuMy0wLjMsMS45LTAuM2g2LjljMC43LDAsMS4zLDAuMSwxLjksMC40YzAuNiwwLjMsMS4xLDAuNywxLjUsMS4yQzg0LjYsNyw4NC45LDcuNiw4NSw4LjJjMC4xLDAuNiwwLjEsMS4zLTAuMSwxLjkKCQkJbC0wLjUsMS43Yy0wLjIsMC43LTAuNiwxLjQtMS4zLDEuOGMtMC42LDAuNS0xLjQsMC43LTIuMSwwLjdoLTcuOGwwLjUtMS44YzAuMS0wLjQsMC40LTAuOCwwLjgtMS4xYzAuNC0wLjMsMC44LTAuNCwxLjMtMC40SDc5CgkJCWMwLjMsMCwwLjUtMC4xLDAuNi0wLjRsMC4xLTAuNGMwLjEtMC4zLTAuMS0wLjYtMC40LTAuN2MwLDAtMC4xLDAtMC4xLDBoLTQuOEM3NCw5LjQsNzMuOCw5LjUsNzMuNiw5Ljd6Ii8+CgkJPHBhdGggY2xhc3M9InN0MCIgZD0iTTgzLjUsMjBsNS4yLTE4LjljMC4xLTAuMywwLjMtMC42LDAuNi0wLjhjMC4zLTAuMiwwLjYtMC4zLDEtMC4zSDkzYzAuMywwLDAuNiwwLjEsMC44LDAuNAoJCQlDOTQsMC42LDk0LjEsMC45LDk0LDEuMmwtMy45LDEzLjljLTAuMiwwLjctMC41LDEuNC0wLjksMmMtMC40LDAuNi0wLjksMS4xLTEuNSwxLjVjLTAuNiwwLjQtMS4yLDAuOC0xLjksMQoJCQlDODUsMTkuOSw4NC4yLDIwLDgzLjUsMjB6Ii8+Cgk8L2c+CjwvZz4KPC9zdmc+Cg==" alt="">
-                        </a>
-                        <div class="navbar-preferences form-inline">
-                            <a id="lnkHeaderLogout" target="_top" href="<?=root?>logout" class="btn link-buttons" title="Logout" role="link" aria-label="Logout">
-                            <span id="logoutImg" class="glyphicon glyphicon-log-out"></span>
-                            <span id="lblLogout" class="hidden-inline-xs">Logout</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </header>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/6ef683ec4c.js" crossorigin="anonymous"></script>
+        </head>
+
+        <style>
+        .panel a { text-decoration:none; color: #000;display: flex; align-items: center; }
+        .panel a i { font-size : 38px; margin-right: 10px; }
+
+        </style>
+
+    <body id="home" class="cpanel yui-skin-sam cpanel_body">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="<?=root?>">
+        <img id="imgLogo" class="navbar-brand-logo" style="width:90px" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIwLjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA5NCAyMCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgOTQgMjA7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDojRkZGRkZGO30KPC9zdHlsZT4KPHRpdGxlPkFzc2V0IDE8L3RpdGxlPgo8ZyBpZD0iTGF5ZXJfMiI+Cgk8ZyBpZD0iTGF5ZXJfMS0yIj4KCQk8cGF0aCBjbGFzcz0ic3QwIiBkPSJNNy44LDQuOWg1LjlsLTAuOSwzLjNjLTAuMSwwLjQtMC40LDAuOC0wLjgsMS4xYy0wLjQsMC4zLTAuOCwwLjQtMS4zLDAuNEg3LjljLTAuNiwwLTEuMiwwLjItMS43LDAuNQoJCQljLTAuNSwwLjQtMC44LDAuOS0xLDEuNGMtMC4xLDAuNC0wLjEsMC45LDAsMS4zYzAuMSwwLjQsMC4zLDAuNywwLjUsMS4xYzAuMiwwLjMsMC42LDAuNiwwLjksMC43QzcsMTUsNy41LDE1LjEsNy45LDE1LjFoMS43CgkJCWMwLjMsMCwwLjYsMC4xLDAuOCwwLjRjMC4yLDAuMiwwLjMsMC41LDAuMiwwLjhsLTEsMy43SDcuNmMtMS4yLDAtMi40LTAuMy0zLjQtMC44Yy0xLTAuNS0xLjktMS4yLTIuNi0yLjEKCQkJYy0xLjQtMS44LTEuOS00LjItMS4zLTYuNGwwLjEtMC40YzAuNC0xLjYsMS40LTIuOSwyLjctMy45QzMuOCw2LDQuNSw1LjYsNS4zLDUuM0M2LjEsNS4xLDYuOSw0LjksNy44LDQuOXoiLz4KCQk8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMTAuNywyMGw1LjEtMTguNGMwLjEtMC40LDAuNC0wLjgsMC44LTEuMUMxNywwLjEsMTcuNSwwLDE4LDBoNS40YzEuMiwwLDIuNCwwLjMsMy40LDAuOGMyLjEsMSwzLjUsMi45LDQsNQoJCQljMC4zLDEuMSwwLjIsMi4zLTAuMSwzLjRsLTAuMSwwLjRjLTAuMiwwLjgtMC42LDEuNS0xLDIuMmMtMS40LDItMy44LDMuMy02LjMsMy4zaC00LjdsMC45LTMuNGMwLjEtMC40LDAuNC0wLjgsMC44LTEuMQoJCQljMC40LTAuMywwLjgtMC40LDEuMy0wLjRoMS41YzEuMiwwLDIuMy0wLjgsMi43LTJjMC4xLTAuNCwwLjEtMC44LDAtMS4yYy0wLjEtMC40LTAuMy0wLjctMC41LTEuMWMtMC4yLTAuMy0wLjYtMC42LTAuOS0wLjcKCQkJQzI0LDUsMjMuNiw0LjksMjMuMSw0LjloLTIuOWwtMy44LDEzLjZjLTAuMSwwLjQtMC40LDAuOC0wLjgsMS4xYy0wLjQsMC4zLTAuOCwwLjQtMS4zLDAuNEgxMC43eiIvPgoJCTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik00My4xLDEwLjJsMC4xLTAuM2MwLTAuMSwwLTAuMi0wLjEtMC4zYy0wLjEtMC4xLTAuMi0wLjEtMC4zLTAuMWgtOC40Yy0wLjMsMC0wLjctMC4xLTEtMC4yCgkJCWMtMC4zLTAuMS0wLjUtMC4zLTAuNy0wLjZjLTAuMi0wLjItMC4zLTAuNS0wLjQtMC44Yy0wLjEtMC4zLTAuMS0wLjcsMC0xbDAuNS0xLjloMTEuNGMwLjcsMCwxLjMsMC4xLDEuOSwwLjQKCQkJYzAuNiwwLjMsMS4xLDAuNywxLjUsMS4yYzAuNCwwLjUsMC43LDEuMSwwLjgsMS43YzAuMSwwLjYsMC4xLDEuMywwLDEuOWwtMi4xLDcuM0M0NiwxOSw0NC42LDIwLDQzLDIwbC04LjQsMAoJCQljLTEuNCwwLTIuNy0wLjYtMy42LTEuN2MtMC40LTAuNS0wLjctMS4xLTAuOC0xLjdjLTAuMi0wLjctMC4xLTEuNCwwLjEtMmwwLjEtMC40YzAuMS0wLjUsMC4zLTAuOSwwLjYtMS4zYzAuMy0wLjQsMC42LTAuNywxLTEKCQkJYzAuNC0wLjMsMC44LTAuNSwxLjMtMC43YzAuNS0wLjIsMS0wLjIsMS41LTAuMmg3LjFsLTAuNSwxLjljLTAuMSwwLjQtMC40LDAuOC0wLjgsMS4xYy0wLjQsMC4zLTAuOCwwLjQtMS4zLDAuNGgtMy4yCgkJCWMtMC4zLDAtMC41LDAuMS0wLjYsMC40Yy0wLjEsMC4yLDAsMC40LDAuMSwwLjVjMC4xLDAuMSwwLjMsMC4yLDAuNSwwLjJoNS4xYzAuMiwwLDAuNCwwLDAuNS0wLjFjMC4xLTAuMSwwLjItMC4yLDAuMy0wLjQKCQkJbDAuMS0wLjJMNDMuMSwxMC4yeiIvPgoJCTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik01OC4zLDQuOWMxLjIsMCwyLjQsMC4zLDMuNSwwLjhjMSwwLjUsMS45LDEuMiwyLjYsMi4xYzAuNywwLjksMS4yLDEuOSwxLjQsM2MwLjMsMS4xLDAuMiwyLjMtMC4xLDMuNAoJCQlsLTEuMyw0LjdjLTAuMSwwLjMtMC4zLDAuNi0wLjYsMC44Yy0wLjMsMC4yLTAuNiwwLjMtMSwwLjNINjBjLTAuNSwwLTEtMC40LTEtMC45YzAtMC4xLDAtMC4yLDAtMC4zbDEuNi01LjcKCQkJYzAuMS0wLjQsMC4xLTAuOCwwLTEuMmMtMC4xLTAuNC0wLjMtMC43LTAuNS0xLjFjLTAuMi0wLjMtMC42LTAuNi0wLjktMC43Yy0wLjQtMC4yLTAuOC0wLjMtMS4yLTAuM2gtMi45bC0yLjUsOS4xCgkJCWMtMC4xLDAuMy0wLjMsMC42LTAuNiwwLjhjLTAuMywwLjItMC42LDAuMy0xLDAuM2gtMi44Yy0wLjMsMC0wLjYtMC4xLTAuOC0wLjRjLTAuMi0wLjItMC4zLTAuNS0wLjItMC44bDMuOC0xMy45TDU4LjMsNC45eiIvPgoJCTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik03My42LDkuN2MtMC4yLDAuMi0wLjQsMC40LTAuNCwwLjZMNzIsMTQuNWMtMC4xLDAuNCwwLjEsMC44LDAuNSwwLjljMC4xLDAsMC4xLDAsMC4yLDBoMTAuOGwtMC44LDMKCQkJYy0wLjEsMC40LTAuNCwwLjgtMC44LDEuMUM4MS41LDE5LjksODEsMjAsODAuNiwyMGgtOS44Yy0wLjcsMC0xLjMtMC4xLTEuOS0wLjRjLTAuNi0wLjMtMS4xLTAuNy0xLjUtMS4yCgkJCWMtMC40LTAuNS0wLjctMS4xLTAuOC0xLjdjLTAuMS0wLjYtMC4xLTEuMywwLjEtMS45bDEuNi01LjdjMC4yLTAuNiwwLjQtMS4yLDAuOC0xLjdjMC43LTEsMS43LTEuOCwyLjktMi4yCgkJCWMwLjYtMC4yLDEuMy0wLjMsMS45LTAuM2g2LjljMC43LDAsMS4zLDAuMSwxLjksMC40YzAuNiwwLjMsMS4xLDAuNywxLjUsMS4yQzg0LjYsNyw4NC45LDcuNiw4NSw4LjJjMC4xLDAuNiwwLjEsMS4zLTAuMSwxLjkKCQkJbC0wLjUsMS43Yy0wLjIsMC43LTAuNiwxLjQtMS4zLDEuOGMtMC42LDAuNS0xLjQsMC43LTIuMSwwLjdoLTcuOGwwLjUtMS44YzAuMS0wLjQsMC40LTAuOCwwLjgtMS4xYzAuNC0wLjMsMC44LTAuNCwxLjMtMC40SDc5CgkJCWMwLjMsMCwwLjUtMC4xLDAuNi0wLjRsMC4xLTAuNGMwLjEtMC4zLTAuMS0wLjYtMC40LTAuN2MwLDAtMC4xLDAtMC4xLDBoLTQuOEM3NCw5LjQsNzMuOCw5LjUsNzMuNiw5Ljd6Ii8+CgkJPHBhdGggY2xhc3M9InN0MCIgZD0iTTgzLjUsMjBsNS4yLTE4LjljMC4xLTAuMywwLjMtMC42LDAuNi0wLjhjMC4zLTAuMiwwLjYtMC4zLDEtMC4zSDkzYzAuMywwLDAuNiwwLjEsMC44LDAuNAoJCQlDOTQsMC42LDk0LjEsMC45LDk0LDEuMmwtMy45LDEzLjljLTAuMiwwLjctMC41LDEuNC0wLjksMmMtMC40LDAuNi0wLjksMS4xLTEuNSwxLjVjLTAuNiwwLjQtMS4yLDAuOC0xLjksMQoJCQlDODUsMTkuOSw4NC4yLDIwLDgzLjUsMjB6Ii8+Cgk8L2c+CjwvZz4KPC9zdmc+Cg==" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+            <form class="d-flex" method="get" action="">
+                <!--<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">-->
+                <a href="<?=root?>logout" class="btn btn-outline-primary">logout</a>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid">
+
+<div class="alert alert-primary mt-1" role="alert">
+<div>Introducing our new style, <strong>Glass</strong>. A clean, elegant take on our classic design. Try it out. Let us know what you think.</div>
+</div>
 
             <div id="content" style="padding-left:15px" class="container-fluid">
-                <div class="alert alert-info change-style-alert" ng-show="showNewStyleBanner" role="alert" ng-controller="stylesController">
-                    <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-                    <div class="alert-message flex-box">
-                        <div>Introducing our new style, <strong>Glass</strong>. A clean, elegant take on our classic design. Try it out. Let us know what you think.</div>
-                        <div>
-                            <button class="btn btn-link btn-link-primary" ng-click="tryNewStyle()" ng-disabled="isSwitchingStyles">
-                            <i class="fas fa-spin fa-spinner ng-hide" ng-show="isSwitchingStyles" aria-hidden="true"></i>
-                            <span>Switch to Glass</span>
-                            </button>
-                            <button class="btn btn-link" ng-click="dismissNewStyleBanner()">
-                            <span>Dismiss</span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
+
                 <div class="row">
                     <div id="main" class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
                         <div ng-controller="applicationListController">
                             <div id="jump-search">
                                 <input id="quickjump" aria-label="Quick Jump" type="text" class="form-control ng-pristine ng-untouched ng-valid" ng-model="searchText" ng-keyup="clearSearch($event)" placeholder="Find functions quickly by typing here." name="">
                             </div>
+
+                            <div class="panel">
+
+                            <div class="card mt-3">
+                                <div class="card-header">
+                                    Email
+                                </div>
+                                <div class="card-body">
+                                 <div class="row">
+                                     <div class="col-md-3"><a href="<?=root?>email_accounts"><i class="fas fa-envelope-square"></i> Email Accounts</a></div>
+                                 </div>
+                                </div>
+                            </div>
+
+                            </div>
+
+
                             <div id="boxes" application-list-filter="" search-text="searchText" collapsed-groups="collapsedGroups">
                                 <div drop-area="" drop="handleDrop" id="top-drop-area" class="drop-area"></div>
                                 <div id="email-container">
@@ -138,7 +171,7 @@ header("Location: ".root."login");
                                             <div class="icon-container-body">
                                                 <div class="item" data-item-search-text="email accounts mail pop imap smtp Email Accounts Email Accounts" data-item-group="email">
                                                     <a id="icon-email_accounts" aria-label="Email Accounts" class="itemImageWrapper integrations_icon spriteicon_img icon-email_accounts" href="email_accounts/index.html"></a>
-                                                    <a id="item_email_accounts" class="itemTextWrapper link" href="email_accounts/index.html">Email Accounts</a>
+                                                    <a id="item_email_accounts" class="itemTextWrapper link" href="email_accounts/index.html"></a>
                                                 </div>
                                                 <div class="item" data-item-search-text="Forwarders forward Forwarders" data-item-group="email">
                                                     <a id="icon-forwarders" aria-label="Forwarders" class="itemImageWrapper integrations_icon spriteicon_img icon-forwarders" href="mail/fwds.html"></a>
