@@ -172,6 +172,38 @@ header("Location: ".root."login");
                                 </div>
                             </div>
 
+
+                            <div class="card mt-3">
+                                <div class="card-header">
+                                    Files
+                                </div>
+                                <div class="card-body">
+                                 <div class="row">
+                                     <div class="col-md-3"><a href="<?=root?>file_manager"><i class="fas fa-file"></i> File Manager</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>images"><i class="far fa-images"></i> Images</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>directory_privacy"><i class="fas fa-key"></i> Directory Privacy</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>disk_usage"><i class="far fa-save"></i> Disk Usage</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>web_disk"><i class="far fa-save"></i> Web Disk</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>backup"><i class="fas fa-trash-restore"></i> Backup</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>backup_wizard"><i class="fas fa-undo-alt"></i> Backup Wizard</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>gitTM_version control"><i class="fas fa-university"></i> GitTM Version Contrl</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>file_and_directory_restoration"><i class="far fa-compass"></i> File and Directory Restoration</a></div>
+                                  
+                                 </div>
+                                </div>
+                            </div>
+                            <div class="card mt-3">
+                                <div class="card-header">
+                                    Database
+                                </div>
+                                <div class="card-body">
+                                 <div class="row">
+                                     <div class="col-md-3"><a href="<?=root?>file_manager"><i class="fas fa-file"></i> File Manager</a></div>
+                                     >
+                                  
+                                 </div>
+                                </div>
+                            </div>
                             </div>
 
 
