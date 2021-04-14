@@ -288,8 +288,33 @@ header("Location: ".root."login");
                                      <div class="col-md-3"><a href="<?=root?>track_dns"><i class="fas fa-truck-monster"></i> Track DNS</a></div>
                                      <div class="col-md-3"><a href="<?=root?>indexes"><i class="fas fa-search-location"></i> Indexes</a></div>
                                      <div class="col-md-3"><a href="<?=root?>error_pages"><i class="fas fa-exclamation-circle"></i> Error Pages</a></div>
-                                     <div class="col-md-3"><a href="<?=root?>apache_handlers"><i class="fas fa-helicopter"></i> Apache Handlers</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>apache_handlers"><i class="fas fa-anchor"></i> Apache Handlers</a></div>
                                      <div class="col-md-3"><a href="<?=root?>mime_types"><i class="fas fa-drum"></i> MIME Types</a></div>
+                                 </div>
+                                </div>
+                            </div>
+                            <div class="card mt-3">
+                                <div class="card-header">
+                                    Preferences
+                                </div>
+                                <div class="card-body">
+                                 <div class="row">
+                                     <div class="col-md-3"><a href="<?=root?>password_and_security"><i class="fas fa-key"></i> Password and Security</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>change_language"><i class="fas fa-language"></i> Change Language</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>changle_style"><i class="fas fa-remove-format"></i> Change Style</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>contact_information"><i class="far fa-address-card"></i> Contact Information</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>user_manager"><i class="fas fa-user-clock"></i> User Manager</a></div>
+                                 </div>
+                                </div>
+                            </div>
+                            <div class="card mt-3">
+                                <div class="card-header">
+                                    Applications
+                                </div>
+                                <div class="card-body">
+                                 <div class="row">
+                                     <div class="col-md-3"><a href="<?=root?>wordpress_manager"><i class="fab fa-wordpress"></i> WordPress Manager</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>wordpress_toolkit"><i class="fab fa-wordpress-simple"></i> WordPress Toolkit</a></div>
                                  </div>
                                 </div>
                             </div>
