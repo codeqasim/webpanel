@@ -206,6 +206,97 @@ header("Location: ".root."login");
                                  </div>
                                 </div>
                             </div>
+                            <div class="card mt-3">
+                                <div class="card-header">
+                                    Domains
+                                </div>
+                                <div class="card-body">
+                                 <div class="row">
+                                     <div class="col-md-3"><a href="<?=root?>site_publisher"><i class="fas fa-upload"></i> Site Publisher</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>domains"><i class="fas fa-igloo"></i> Domains</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>addon_domains"><i class="fas fa-cart-plus"></i> Addon Domains</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>subdomains"><i class="far fa-calendar-plus"></i> Subdomains</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>aliases"><i class="fas fa-equals"></i> Aliases</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>redirects"><i class="fas fa-history"></i> Redirects</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>zone_editor"><i class="far fa-edit"></i> Zone Editor</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>dynamics_dns"><i class="fas fa-dice-d20"></i> Dynamics DNS</a></div>
+                                  
+                                 </div>
+                                </div>
+                            </div>
+                            <div class="card mt-3">
+                                <div class="card-header">
+                                    Metrics
+                                </div>
+                                <div class="card-body">
+                                 <div class="row">
+                                     <div class="col-md-3"><a href="<?=root?>visitors"><i class="fas fa-walking"></i> Visitors</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>errors"><i class="fas fa-exclamation-triangle"></i> Errors</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>bandwidth"><i class="fas fa-route"></i> Bandwidth</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>raw_access"><i class="fab fa-resolving"></i> Raw Access</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>awstats"><i class="fab fa-aws"></i> Awstats</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>analog_stats"><i class="fab fa-intercom"></i> Analog Stats</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>webalizer"><i class="fas fa-bars"></i> Webalizer</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>metrics_editor"><i class="fas fa-sort-numeric-up"></i> Metrics Editor</a></div>
+                                  
+                                 </div>
+                                </div>
+                            </div>
+                            <div class="card mt-3">
+                                <div class="card-header">
+                                    Security
+                                </div>
+                                <div class="card-body">
+                                 <div class="row">
+                                     <div class="col-md-3"><a href="<?=root?>ssh_access"><i class="fas fa-universal-access"></i> SSH Access</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>ip_blocker"><i class="fas fa-ban"></i> IP Blocker</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>ssl/tls"><i class="fas fa-project-diagram"></i> SSL/TLS</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>manage_api_tokens"><i class="far fa-window-restore"></i> Manage API Tokens</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>hotlink_protection"><i class="fas fa-h-square"></i> Hotlink Protection</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>leech_protection"><i class="fas fa-umbrella"></i> Leech Protection</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>ssl/tls_wizard"><i class="far fa-stop-circle"></i> SSL/TLS Wizard</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>mod_security"><i class="fab fa-modx"></i> Mod Security</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>ssl/tls_status"><i class="far fa-hand-paper"></i> SSL/TLS Status</a></div>
+                                  
+                                 </div>
+                                </div>
+                            </div>
+                            <div class="card mt-3">
+                                <div class="card-header">
+                                    Software
+                                </div>
+                                <div class="card-body">
+                                 <div class="row">
+                                     <div class="col-md-3"><a href="<?=root?>php_pear_packages"><i class="fas fa-parking"></i> PHP Pear Packages</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>perl_modules"><i class="fab fa-monero"></i> Perl Modules</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>ruby_gems"><i class="fab fa-resolving"></i> Ruby Gems</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>site_software"><i class="fab fa-symfony"></i> Site Software</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>optimize_website"><i class="fab fa-openid"></i> Optimize Website</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>multiphp_manager"><i class="fab fa-php"></i> MultiPHP Manager</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>multiphp_ini_manager"><i class="far fa-newspaper"></i> MultiPHP INI Editor</a></div>
+                                 </div>
+                                </div>
+                            </div>
+                            <div class="card mt-3">
+                                <div class="card-header">
+                                    Advanced
+                                </div>
+                                <div class="card-body">
+                                 <div class="row">
+                                     <div class="col-md-3"><a href="<?=root?>terminal"><i class="fas fa-terminal"></i> Terminal</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>cron_jobs"><i class="fas fa-user-md"></i> Cron Jobs</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>track_dns"><i class="fas fa-truck-monster"></i> Track DNS</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>indexes"><i class="fas fa-search-location"></i> Indexes</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>error_pages"><i class="fas fa-exclamation-circle"></i> Error Pages</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>apache_handlers"><i class="fas fa-helicopter"></i> Apache Handlers</a></div>
+                                     <div class="col-md-3"><a href="<?=root?>mime_types"><i class="fas fa-drum"></i> MIME Types</a></div>
+                                 </div>
+                                </div>
+                            </div>
+
+
+
+
                             </div>
 
 
