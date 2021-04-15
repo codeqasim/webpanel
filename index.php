@@ -307,6 +307,7 @@ header("Location: ".root."login");
                                  </div>
                                 </div>
                             </div>
+                            
                             <div class="card mt-3">
                                 <div class="card-header">
                                     Applications
