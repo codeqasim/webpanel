@@ -86,7 +86,7 @@ header("Location: ".root."login");
          body{ background:#f4f8f9 }
         .panels .col-md-3 { margin-bottom: 15px; }
         .card-header { font-weight:bold }
-        .side i { font-size: 12px; min-width: 20px; margin: 0 12px; }
+        .side i { font-size: 12px !important; min-width: 20px  !important; margin: 0 12px !important; }
 
         </style>
 
@@ -777,6 +777,9 @@ header("Location: ".root."login");
                 </div>
             </div>
             <!-- PAGE TEMPLATE'S CONTENT END -->
+        </div>
+        </div>
+        </div>
         </div>
         <footer role="contentinfo">
 
